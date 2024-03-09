@@ -1,4 +1,8 @@
 /* Definition of the header style*/
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
 h1 {
     font-family: "Inter", sans-serif;
     text-align: center;
@@ -12,8 +16,8 @@ h1 span {
 }
 
 /*Definition of the body, paragraphs and links*/
-body, p, a{
-    font-family: "Open Sans", sans-serif;
+span, a{
+    
     text-align: center;
 }
 

@@ -1,6 +1,18 @@
 /* Definition of the header style*/
 body {
     font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+/*Definitionf of the title*/
+#hero {
+    width: 592px;
+    margin: 0 auto 72px;
+    /*The first value is for the top, the second for the sides and the third value is the bottom*/
+}
+
+#hero img {
+    margin-bottom: 72px;
 }
 
 h1 {
@@ -9,6 +21,7 @@ h1 {
     font-size: 49px;
     line-height: 56px;
     font-weight: bold;
+    margin-bottom: 32px;
 }
 
 h1 span {
@@ -16,15 +29,31 @@ h1 span {
 }
 
 /*Definition of the body, paragraphs and links*/
-span, a{
-    
-    text-align: center;
-}
-
-span {
+span, a {
     color: #FF9900;
 }
 
-a {
-    color: #FF9900;
+p, #footer {
+    color: #7D7987;
+
+    font-size: 14px;
+    line-height: 28px;
+}
+
+#footer a + a {
+    margin-left: 28px;
+}
+
+.line {
+    width: 568px;
+    height: 0px;
+    margin: 0 auto 8px;
+
+    border: 1px solid #ECEFF2;
+}
+
+#balls {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
 }
